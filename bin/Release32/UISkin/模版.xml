@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="1024,768" mininfo="1024,768" xmlns="http://www.xinghesoft.com/duilib.xsd">
+<HorizontalLayout width="954" height="708" bkcolor="#FFEE1111">
+ <VerticalLayout width ="900" height="600" bkcolor="#FF808080"  float="true" pos="20,20,0,0" bordersize="6">
+      <HorizontalLayout width="900" height="150" padding="2,2,2,2" bkcolor="#FF42E61A">
+          <VerticalLayout width="750" height="150">
+              <HorizontalLayout width="749" height="74" padding="1,1,0,0" bkcolor="#FF44A3BB"/>
+              <HorizontalLayout width="749" height="74" padding="1,1,1,1" bkcolor="#FF44A3BB"/>
+          </VerticalLayout>
+          <HorizontalLayout width="150" height="150" bkcolor="#FFDDDD22">
+                  
+          </HorizontalLayout>
+      </HorizontalLayout>
+   
+      <HorizontalLayout width="900" height="50" padding="2,2,2,2" bkcolor="#FF44A3BB" />
+      <HorizontalLayout width="900" height="400" padding="2,2,2,2" bkcolor="#FF42E61A" />
+
+ </VerticalLayout>
+</HorizontalLayout>
+</Window>

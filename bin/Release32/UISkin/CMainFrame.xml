@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="1024,768" mininfo="1024,768" xmlns="http://www.xinghesoft.com/duilib.xsd" caption="0,0,0,32">
+  <Include source="DefaultFont.xml"></Include>
+  <!--分为三个水平区域，顶部，中部，底部-->
+  <VerticalLayout bkcolor="#FFc3ccd1"  bordersize="1" bordercolor="#FF9CAAAD" inset="1,1,1,1">
+    <!--第一个水平区域-->
+    <HorizontalLayout bkcolor="#FFA4B0A7" bkcolor2="#FFB0ACA4" height="32" width="1024"  bordersize="1">
+       <Button name="btnMenu" text="选项" float="true" pos="0,10,0,0" width="32" height="19" font="10" align="center" normalimage="" hotimage="Menu/btn_menu_hot.png" pushedimage="Menu/btn_menu_hot.png" focusedimage="Menu/btn_menu_hot.png" textcolor="#FF000000" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" focusedtextcolor="#FFFFFFFF" bkcolor="#FFECE9D8" />
+    </HorizontalLayout>
+
+    <!--第二个水平区域-->
+    <HorizontalLayout bkcolor="#FF94C1C1" bkcolor2="#FF9494C1"  height="704"  bordersize="1">
+      <!--左侧按钮列-->
+      <VerticalLayout width="70" bordersize="2" inset="2,2,2,2">
+        <Option name="OptionDemo1" text="选项1"  selected="true" width="65" height="35" textcolor="#FF000000" selectedtextcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" font="5" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" group="MainMenu" selectedimage="toolbar_normal.png" />
+
+        <Option name="OptionDemo2" text="选项2" width="65" height="35" textcolor="#FF000000" selectedtextcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" font="5" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" group="MainMenu" selectedimage="toolbar_normal.png" />
+
+        <Option name="OptionDemo3" text="选项3" width="65" height="35" textcolor="#FF000000" selectedtextcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" font="5" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" group="MainMenu" selectedimage="toolbar_normal.png" />
+
+        <Option name="OptionDemo4" text="选项4" width="65" height="35" textcolor="#FF000000" selectedtextcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" font="5" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" group="MainMenu" selectedimage="toolbar_normal.png" />
+
+        <Option name="OptionDemo5" text="选项5" width="65" height="35" textcolor="#FF000000" selectedtextcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" font="5" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" group="MainMenu" selectedimage="toolbar_normal.png" />
+
+        <Option name="OptionDemo6" text="选项6" width="65" height="35" textcolor="#FF000000" selectedtextcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" font="5" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" group="MainMenu" selectedimage="toolbar_normal.png" />
+
+        <Option name="vidiomanage" text="选项7"  width="65" height="35" textcolor="#FF000000" selectedtextcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" font="6" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" group="MainMenu" selectedimage="toolbar_normal.png" />
+
+        <Option name="btClose" text="关闭" width="65" height="35" textcolor="#FF000000" selectedtextcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" font="5" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" group="MainMenu" selectedimage="toolbar_normal.png" />
+
+      </VerticalLayout>
+      <!--按钮切换区域-->
+      <TabLayout name="tabTest"  width="954" height="704" bkcolor="#FF757676" selectedid="6">
+        <!--第一个水平区域-->
+        <HorizontalLayout width="954" height="704">
+         
+        </HorizontalLayout>
+        <!--第二个水平区域-->
+        <HorizontalLayout width="954" height="704" bkcolor="#FF759876">
+          
+        </HorizontalLayout>
+        <!--第三个水平区域-->        
+        <HorizontalLayout width="954" height="704" bkcolor="#FFD52B6F">
+         
+        </HorizontalLayout>
+        <!--第四个水平区域-->
+        <HorizontalLayout>
+         
+        </HorizontalLayout>
+        <!--第五个水平区域-->
+        <HorizontalLayout>
+          
+        </HorizontalLayout>
+        <!--第六个水平区域-->
+        <HorizontalLayout>
+          
+        </HorizontalLayout>
+        
+        <!--第七个水平区域-->
+        <HorizontalLayout>
+          <!--Include source="videoUI.xml"-->
+        </HorizontalLayout>
+        <!--第八个水平区域-->
+        <HorizontalLayout>
+          
+        </HorizontalLayout>
+      </TabLayout>
+
+    </HorizontalLayout>
+
+    <!--第三个水平区域-->
+    <HorizontalLayout bkcolor="#FFA4B0A7" bkcolor2="#FFB0ACA4" height="32"  bordersize="1">
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

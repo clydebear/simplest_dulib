@@ -1,0 +1,96 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  StdAfx.cpp
+d:\text\video_dulib\include\uiengine\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  UIActiveX.cpp
+  UIButton.cpp
+Control\UIButton.cpp(107): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UICheckBox.cpp
+  UICombo.cpp
+  UIComboBox.cpp
+  UIDateTime.cpp
+Control\UIDateTime.cpp(231): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIEdit.cpp
+Control\UIEdit.cpp(194): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UILabel.cpp
+Control\UILabel.cpp(67): warning C4297: “DuiLib::CLabelUI::~CLabelUI”: 假定函数不引发异常，但确实发生了
+  Control\UILabel.cpp(67): note: 析构函数或释放器具有一个(可能是隐含的)非引发异常规范
+  UIList.cpp
+Control\UIList.cpp(1447): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+Control\UIList.cpp(1992): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIOption.cpp
+  UIProgress.cpp
+  UIRichEdit.cpp
+  UIScrollBar.cpp
+  UISlider.cpp
+Control\UISlider.cpp(174): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIText.cpp
+Control\UIText.cpp(52): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UITreeView.cpp
+  UIWebBrowser.cpp
+  UIBase.cpp
+Core\UIBase.cpp(352): warning C4244: “=”: 从“WPARAM”转换到“UINT”，可能丢失数据
+Core\UIBase.cpp(379): warning C4244: “参数”: 从“WPARAM”转换到“int”，可能丢失数据
+  UIContainer.cpp
+  UIControl.cpp
+Core\UIControl.cpp(781): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  正在生成代码...
+  正在编译...
+  UIDlgBuilder.cpp
+  UIManager.cpp
+  UIMarkup.cpp
+Core\UIMarkup.cpp(215): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+Core\UIMarkup.cpp(220): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+Core\UIMarkup.cpp(576): warning C4244: “初始化”: 从“__int64”转换到“ULONG”，可能丢失数据
+Core\UIMarkup.cpp(577): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+Core\UIMarkup.cpp(609): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+Core\UIMarkup.cpp(621): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+  UIRender.cpp
+Core\UIRender.cpp(1114): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+Core\UIRender.cpp(1297): warning C4311: “类型转换”: 从“LPVOID”到“int”的指针截断
+Core\UIRender.cpp(1297): warning C4302: “类型转换”: 从“LPVOID”到“int”截断
+Core\UIRender.cpp(1347): warning C4311: “类型转换”: 从“LPVOID”到“int”的指针截断
+Core\UIRender.cpp(1347): warning C4302: “类型转换”: 从“LPVOID”到“int”截断
+Core\UIRender.cpp(1380): warning C4312: “类型转换”: 从“DWORD”转换到更大的“LPVOID”
+Core\UIRender.cpp(1391): warning C4311: “类型转换”: 从“LPVOID”到“int”的指针截断
+Core\UIRender.cpp(1391): warning C4302: “类型转换”: 从“LPVOID”到“int”截断
+Core\UIRender.cpp(1409): warning C4311: “类型转换”: 从“LPVOID”到“int”的指针截断
+Core\UIRender.cpp(1409): warning C4302: “类型转换”: 从“LPVOID”到“int”截断
+Core\UIRender.cpp(1419): warning C4312: “类型转换”: 从“DWORD”转换到更大的“LPVOID”
+Core\UIRender.cpp(1471): warning C4311: “类型转换”: 从“LPVOID”到“int”的指针截断
+Core\UIRender.cpp(1471): warning C4302: “类型转换”: 从“LPVOID”到“int”截断
+Core\UIRender.cpp(1501): warning C4311: “类型转换”: 从“LPVOID”到“int”的指针截断
+Core\UIRender.cpp(1501): warning C4302: “类型转换”: 从“LPVOID”到“int”截断
+Core\UIRender.cpp(1602): warning C4312: “类型转换”: 从“int”转换到更大的“LPVOID”
+Core\UIRender.cpp(1634): warning C4311: “类型转换”: 从“LPVOID”到“int”的指针截断
+Core\UIRender.cpp(1634): warning C4302: “类型转换”: 从“LPVOID”到“int”截断
+Core\UIRender.cpp(1672): warning C4311: “类型转换”: 从“LPVOID”到“int”的指针截断
+Core\UIRender.cpp(1672): warning C4302: “类型转换”: 从“LPVOID”到“int”截断
+Core\UIRender.cpp(1680): warning C4311: “类型转换”: 从“LPVOID”到“int”的指针截断
+Core\UIRender.cpp(1680): warning C4302: “类型转换”: 从“LPVOID”到“int”截断
+Core\UIRender.cpp(1700): warning C4311: “类型转换”: 从“LPVOID”到“int”的指针截断
+Core\UIRender.cpp(1700): warning C4302: “类型转换”: 从“LPVOID”到“int”截断
+Core\UIRender.cpp(1720): warning C4311: “类型转换”: 从“LPVOID”到“int”的指针截断
+Core\UIRender.cpp(1720): warning C4302: “类型转换”: 从“LPVOID”到“int”截断
+Core\UIRender.cpp(1859): warning C4311: “类型转换”: 从“LPVOID”到“int”的指针截断
+Core\UIRender.cpp(1859): warning C4302: “类型转换”: 从“LPVOID”到“int”截断
+Core\UIRender.cpp(1947): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+Layout\UIHorizontalLayout.cpp(246): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UITabLayout.cpp
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+Layout\UIVerticalLayout.cpp(251): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIlib.cpp
+  UIDelegate.cpp
+  Utils.cpp
+  WinImplBase.cpp
+  正在生成代码...
+  stb_image.c
+Utils\stb_image.c(764): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+Utils\stb_image.c(777): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  XUnzip.cpp
+Utils\XUnzip.cpp(3458): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+    正在创建库 ../lib/DuiLib_u_64.lib 和对象 ../lib/DuiLib_u_64.exp
+  DuiLib.vcxproj -> D:\text\video_dulib\include\UIEngine\..\..\bin\Release64\DuiLib_u_64.dll
+  DuiLib.vcxproj -> ..\..\bin\Release64\DuiLib_u_64.pdb (Full PDB)
